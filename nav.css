@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav {
+    width:420px;
+    height:70px;
+    /* list-style-type: none; */
+    border: 1px solid black;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    /* box-shadow: 5px 5px 50px 50px rgba(252, 5, 5, 0.699); */
+}
+
+.nav div:hover{
+    border:none;
+    border-radius: 50%;
+    padding: 10px;
+    background: white;
+    /* background: linear-gradient(to bottom left, #000000 0%, #ffffff 100%); */
+}
+
+.home:hover{
+    <i class="fa-solid fa-house-chimney fa-flip" style="color: #ffffff;"></i>
+}
